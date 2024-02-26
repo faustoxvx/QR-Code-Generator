@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #1e61b9;
+  color: #fff;
+  justify-content: center;
+}
+
+.app {
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+input {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: #eee;
+  width: 100%;
+  max-width: 300px;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+}
+
+button,
+a {
+  appearance: none;
+  outline: none;
+  border: none;
+  background: none;
+
+  color: #ececf0;
+  cursor: pointer;
+  font-size: 1.5rem;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  max-width: 480px;
+  margin: 2rem auto;
+}
