@@ -24,13 +24,15 @@ function App() {
   return (
     <div className="app">
       <h1>AVL DiTEST QR Code Generator</h1>
-      <input
-        type="text"
-        placeholder="AVL target URL"
-        value={url}
-        onChange={(e) => setUrl(e.target.value)}
-      />
-      <button onClick={generateQRCode}>Generate</button>
+      <div className="input-container">
+        <input
+          type="text"
+          placeholder="AVL target URL"
+          value={url}
+          onChange={(e) => setUrl(e.target.value)}
+        />
+        <button onClick={generateQRCode}>Generate</button>
+      </div>
       {qrcode && (
         <>
           <img src={qrcode} />
